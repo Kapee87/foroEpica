@@ -1,4 +1,4 @@
-```markdown
+
 # Proyecto para EPICA - Foro 
 
 Este repositorio contiene el código fuente de un proyecto desarrollado como parte del curso de EPICA a través del programa en Argentina. El proyecto utiliza Node.js, Express.js y Sequelize para conectar con una base de datos MySQL. Además, necesita ser ejecutado en un servidor local como el que ofrece XAMPP.
