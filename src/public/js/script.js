@@ -24,7 +24,7 @@ btnCrear.addEventListener("click", () => {
 
 document.addEventListener('click', (event) => {
   if (event.target.matches('#btn-delete')) {
-    const article = event.target.closest('.col-4')
+    const article = event.target.closest('.col-6')
     const idArticle = article.dataset.id
 
     fetch(`http://localhost:3000/api/posts/${idArticle}`, {
@@ -41,9 +41,9 @@ document.addEventListener('click', (event) => {
 
 document.addEventListener("click", (event) => {
   if (event.target.matches("#btn-edit")) {
-    const article = event.target.closest(".col-4");
-
+    const article = event.target.closest(".col-6");
     const idArticle = article.dataset.id;
+
     const urlImageUrlEdit = article.children[0].children[0].src;
     const titleEdit = article.children[0].children[1].children[0].textContent;
     const contentEdit =
