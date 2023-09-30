@@ -30,7 +30,7 @@ y en esta otra se pueden probar los endpoints:
 ##Problemática
 <details>
   <summary>Ver Criterios de evaluación</summary>
-  01. Funcionalidad
+01. Funcionalidad
 El foro debe permitir agregar, leer, actualizar y eliminar posts, y mostrarlos correctamente en la página.
 
 02. Modelo de Datos
