@@ -27,7 +27,7 @@ document.addEventListener('click', (event) => {
     const article = event.target.closest('.col-6')
     const idArticle = article.dataset.id
 
-    fetch(`http://localhost:3000/api/posts/${idArticle}`, {
+    fetch(`https://foro-epica.onrender.com/api/posts/${idArticle}`, {
       method: 'DELETE'
     }).then(res => {
       if (res.ok) {
@@ -70,7 +70,7 @@ form.addEventListener("submit", (event) => {
       imageUrl: inputImageUrl.value,
     };
 
-    fetch('http://localhost:3000/api/posts', {
+    fetch('https://foro-epica.onrender.com/api/posts', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -96,7 +96,7 @@ form.addEventListener("submit", (event) => {
       imageUrl: inputImageUrl.value,
     };
 
-    fetch(`http://localhost:3000/api/posts/${idForm}`, {
+    fetch(`https://foro-epica.onrender.com/api/posts/${idForm}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json'
