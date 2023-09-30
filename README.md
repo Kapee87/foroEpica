@@ -3,9 +3,19 @@
 
 Este repositorio contiene el código fuente de un proyecto desarrollado como parte del curso de EPICA a través del programa en Argentina. El proyecto utiliza Node.js, Express.js y Sequelize para conectar con una base de datos MySQL. Además, necesita ser ejecutado en un servidor local como el que ofrece XAMPP.
 
+## Deploy - Demo
+En esta dirección podés encontrar una beta del funcionamiento de la api con vistas SSR(a menos que se caiga el servidor):
+
+- [Foro Epica](https://foro-epica.onrender.com/posts)
+
+y en esta otra se pueden probar los endpoints:
+
+- [Foro Epica](https://foro-epica.onrender.com/api/posts)
+
+
 ## Requisitos Previos
 
-Antes de comenzar con este proyecto, asegúrate de tener instalados los siguientes elementos en tu entorno de desarrollo:
+Antes de comenzar con este proyecto, asegúrate de tener instalados los siguientes elementos en tu entorno de desarrollo(Para ejecutarlo de forma local):
 
 - [Node.js](https://nodejs.org/)
 - [XAMPP](https://www.apachefriends.org/index.html) u otro servidor local de tu elección
