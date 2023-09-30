@@ -57,5 +57,3 @@ Este proyecto está bajo la licencia [Nombre de la Licencia] - Consulta el archi
 ---
 
 ¡Gracias por utilizar este proyecto! Si tienes alguna pregunta o encuentras algún problema, no dudes en [crear un problema](https://github.com/Kapee87/foroEpica/issues).
-
-```
