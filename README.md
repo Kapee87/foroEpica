@@ -12,6 +12,28 @@ y en esta otra se pueden probar los endpoints:
 
 - [Foro Epica](https://foro-epica.onrender.com/api/posts)
 
+<details>
+  <summary>Ver planteo de la problemática</summary>
+  
+  ### Creación de un Foro Personalizado para Publicar Contenido Multitemático
+     * En un entorno individual y aislado, una persona busca tener la capacidad de crear y compartir publicaciones de temas variados en una página web personal. Cada publicación debe incluir un título descriptivo, contenido informativo, una fecha de creación y la opción de adjuntar el link de una imagen de internet para relacionarla
+con el contenido. En esta etapa del trabajo, no se requiere manejo de comentarios para las publicaciones.
+
+Los estudiantes deben desarrollar un foro en el que esta persona pueda escribir y presentar sus publicaciones de manera atractiva. Esto implica el desarrollo de un formulario de creación de posts que permita ingresar el título y contenido del post, ingresar el enlance (URL) de una imagen de internet relevante y asignar la fecha de
+creación. Además, se espera que las imágenes se muestren de manera óptima y que el diseño general del foro sea responsivo, proporcionando una experiencia agradable en diferentes dispositivos.
+
+La solución a esta problemática requerirá la utilización de tecnologías de programación web, como Node.js, EJS, MySQL y Sequelize. Para el Desarrollo de una interfaz intuitiva y funcional, es recomendable la implementación de Bootstrap lo cual asegurará un diseño responsivo y atractivo. Los estudiantes también tendrán la libertad de aplicar CSS personalizado si lo desean, lo que les permitirá ajustar el estilo y la apariencia del foro de acuerdo con los requisitos y preferencias de diseño. Así también tendrán que abordar cómo manejar la carga y visualización de imágenes, cómo guardar la información en una base de datos individual y cómo presentar las
+publicaciones en la página para lograr una experiencia efectiva y atractiva para el usuario.
+
+Al resolver esta problemática, los estudiantes adquirirán habilidades esenciales en diseño de interfaces, manejo de bases de datos y programación web, permitiéndoles crear una solución personalizada para satisfacer las necesidades de esta persona en la publicación de contenido multitemático en su foro individual.
+
+  ### Some Javascript
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+</details>
 
 ## Requisitos Previos
 
