@@ -33,6 +33,7 @@ document.addEventListener('click', (event) => {
       if (res.ok) {
         article.remove()
       }
+      window - location.reload()
     }).catch(err => {
       console.error(err)
     })
