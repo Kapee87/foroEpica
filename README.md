@@ -12,7 +12,7 @@ y en esta otra se pueden probar los endpoints:
 
 - [Foro Epica](https://foro-epica.onrender.com/api/posts)
 
-##Problemática
+## Problemática
 <details>
   <summary>Ver planteo de la problemática</summary>
   
@@ -27,7 +27,7 @@ y en esta otra se pueden probar los endpoints:
 
 </details>
 
-##Problemática
+## Criterios de evaluación
 <details>
   <summary>Ver Criterios de evaluación</summary>
   
@@ -60,6 +60,15 @@ El link del repositorio creado en GitHub, debe tener visibilidad “público” 
 
   10. Entrega
 El trabajo debe ser entregado en tiempo y forma.
+  
+  </details>
+
+  ## Corrección y notas de unidades teóricas
+<details>
+  <summary>Ver Notas</summary>
+  
+![notas epica](https://github.com/Kapee87/foroEpica/assets/89433307/005b4a15-04cd-4e28-989d-4f6bf1ac2d2b)
+
   
   </details>
 
