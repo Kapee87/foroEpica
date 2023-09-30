@@ -12,6 +12,7 @@ y en esta otra se pueden probar los endpoints:
 
 - [Foro Epica](https://foro-epica.onrender.com/api/posts)
 
+##Problemática
 <details>
   <summary>Ver planteo de la problemática</summary>
   
@@ -25,6 +26,61 @@ y en esta otra se pueden probar los endpoints:
     * Al resolver esta problemática, los estudiantes adquirirán habilidades esenciales en diseño de interfaces, manejo de bases de datos y programación web, permitiéndoles crear una solución personalizada para satisfacer las necesidades de esta persona en la publicación de contenido multitemático en su foro individual.
 
 </details>
+
+##Problemática
+<details>
+  <summary>Ver Criterios de evaluación</summary>
+  01
+
+Funcionalidad
+El foro debe permitir agregar, leer, actualizar y eliminar posts, y mostrarlos correctamente en la página.
+
+02
+
+Modelo de Datos
+Se debe utilizar el modelo de datos especificado con la tabla de posts.
+
+03
+
+Visualización de Datos
+La vista de los post deben contar con los siguientes datos: Título del post, Contenido del post, la imagen relacionada con el link que se coloca en el formulario y la Fecha de creación del post.
+
+04
+
+Uso de Tecnologías
+Correcta utilización de Node.js, Express, EJS, MySQL y Sequelize. Como así también correcta implementación y configuración de los Middlewares.
+
+05
+
+Diseño Responsivo
+El trabajo debe tener implementado Bootstrap para asegurar que el diseño sea responsivo y se adapte a diferentes dispositivos.
+
+06
+
+Estilo Personalizado
+Agregar CSS manual para personalizar y mejorar el diseño de acuerdo con la creatividad de los alumnos si así lo desea.
+
+07
+
+JavaScript
+Utilizar JavaScript para obtener los datos del servidor, así como para editarlos y eliminarlos de forma síncrona.
+
+08
+
+Documentación
+Correcta implementación de comentarios y calidad del código desarrollado.
+
+09
+
+Repositorio en GitHub
+El link del repositorio creado en GitHub, debe tener visibilidad “público” y con el nombre establecido para su presentación. Además debe incluir un archivo “.gitignore” correctamente configurado.
+
+10
+
+Entrega
+El trabajo debe ser entregado en tiempo y forma.
+  
+  </details>
 
 ## Requisitos Previos
 
