@@ -1,4 +1,5 @@
 import express from 'express';
+import 'dotenv/config.js'
 import { startDb } from './src/config/database.js';
 import path from 'node:path'
 import cors from 'cors'
@@ -28,6 +29,8 @@ app.set('views', path.join(__dirname, "src", "views"))
 app.set('view engine', 'ejs');
 
 const port = 3000
+
+startDb()
 
 app.use('/', postsRouter)
 

@@ -1,7 +1,14 @@
 import { Sequelize } from "sequelize";
 
-export const sequelize = new Sequelize("posts_db", "root", "", {
+//para entorno local
+/* export const sequelize = new Sequelize("posts_db", "root", "", {
     host: "localhost",
+    dialect: "mysql",
+}); */
+
+//para prod
+const DB_URI = process.env.CONNECTION_URI
+export const sequelize = new Sequelize(DB_URI,{
     dialect: "mysql",
 });
 

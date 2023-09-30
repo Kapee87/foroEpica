@@ -7,7 +7,7 @@ export const PostModel = sequelize.define('Post', {
         allowNull: true
     },
     content: {
-        type: DataTypes.STRING,
+        type: DataTypes.STRING(500),
         allowNull: true
     },
     imageUrl: {
